@@ -75,10 +75,20 @@ class MainActivity : AppCompatActivity() {
                 fab.animation = null
             }
         }
+        switch_shake.setOnCheckedChangeListener { buttonView, isChecked ->
+            if(isChecked)  {
+                turnOfAll(switch_shake)
+                val animation = AnimationUtils.loadAnimation(this@MainActivity, R.anim.shake)
+                fab.startAnimation(animation)
+
+            } else{
+                fab.animation = null
+            }
+        }
 
     }
 
-    fun turnOfAll(view:View){
+    private fun turnOfAll(view:View){
         if (view != switch_rotate)
             switch_rotate.isChecked = false
 
@@ -90,6 +100,9 @@ class MainActivity : AppCompatActivity() {
 
         if (view != switch_alpha)
             switch_alpha.isChecked = false
+
+        if (view != switch_shake)
+            switch_shake.isChecked = false
     }
 
 }
