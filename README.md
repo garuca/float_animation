@@ -1,2 +1,2 @@
 # float_animation
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://previews.dropbox.com/p/orig/AARAQlkNZukXkCMVzuL_TNYEXv7mU5BWSO-50IUgIS3XrBAJYDJcfmfLlkv6mVOmh_VbebzD1E_HKuJFSvdQWkBxka4e20iiwUvIKxeJN3qLay5qFtfCHVMQfjJ5k8BfGD766Nr3D3USpBilQdFX8INUimHqVXkPddBv3flZvFv0U0miLwcrYWHNo6OO8ohE7pvYGJqTBT_WeJ2iZpdUWrH8/p.gif?size=2048x1536&size_mode=3"  />
